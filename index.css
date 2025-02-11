@@ -11,3 +11,17 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+#menu {
+    display: flex;
+    align-items: baseline;
+}
+#menu-links {
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu h1 {
+    
+}
