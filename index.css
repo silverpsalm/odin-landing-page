@@ -3,6 +3,11 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+#main {
+    max-width: 800px;
+    margin: auto;
+}
+
 #header, #footer {
     color: #fff;
 }
@@ -19,9 +24,14 @@ body {
 #menu-links {
     flex-grow: 2;
     display: flex;
-    justify-content: flex-end;
+    justify-self: self-end;
+    justify-content: space-between;
+}
+
+#menu-links a {
+    margin-left: 15px;
 }
 
 #menu h1 {
-    
+    flex-grow:50;
 }
