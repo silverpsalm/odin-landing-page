@@ -1,3 +1,13 @@
 body {
     background-color: #1F2937;
+    font-family: Roboto, sans-serif;
+}
+
+#header, #footer {
+    color: #fff;
+}
+
+#header a, a:visited {
+    color: #fff;
+    text-decoration: none;
 }
