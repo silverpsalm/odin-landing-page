@@ -3,6 +3,11 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
 #main {
     max-width: 800px;
     margin: auto;
@@ -20,6 +25,7 @@ body {
 #menu {
     display: flex;
     align-items: baseline;
+    flex-basis: 100%;
 }
 #menu-links {
     flex-grow: 2;
@@ -34,4 +40,25 @@ body {
 
 #menu h2 {
     flex-grow:50;
+}
+
+#header-content {
+    display: flex;
+    margin: 40px auto;
+    align-items: end;
+    justify-content: space-between;
+}
+
+#header-info {
+    flex-basis: 45%;
+    margin-right: 20px;
+}
+
+#header-image {
+    flex-basis: 55%;
+}
+
+#header-image img{
+    max-width: 100%;
+    height: auto;
 }
