@@ -22,7 +22,7 @@ button {
     font-weight: bolder;
 }
 
-#header, #random-info-content {
+#header, #random-info-content, #footer {
     max-width: 800px;
     margin: auto;
 }
@@ -88,4 +88,11 @@ button {
 
 #quote {
     background: #E5E7EB;
+}
+
+#footer {
+    display: flex;
+}
+#footer span {
+    margin: auto;
 }
