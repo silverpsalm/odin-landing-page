@@ -18,6 +18,7 @@ h3 {
     font-weight: 910;
     text-align: center;
     letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 button {
@@ -91,6 +92,7 @@ button {
 
 #random-info-container {
     background: #fff;
+    padding: 10px 0 40px;
 }
 
 #photo-gallery {
