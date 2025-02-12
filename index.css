@@ -35,6 +35,15 @@ button {
     margin: auto;
 }
 
+/* #header, #random-info-container, #quote-container, #footer{
+    margin: 0, auto;
+} */
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
 #header, #footer {
     color: #fff;
 }
