@@ -13,6 +13,13 @@ h1 {
     line-height: 120%;
 }
 
+h3 {
+    font-size: 24px;
+    font-weight: 910;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
 button {
     background: #3882F6;
     color: #fff;
