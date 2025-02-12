@@ -2,15 +2,21 @@ body {
     background-color: #1F2937;
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
+    
 
 }
 
 h1 {
-    font-size: 38px;
-    font-weight: 950;
-    letter-spacing: 1px;
+    font-size: 49px;
+    font-weight: 900;
+    color: #F9FAF8;
     margin: 0px;
     line-height: 120%;
+}
+
+h2 {
+    font-size: 24px;
+    color: #E5E7EB;
 }
 
 h3 {
@@ -48,8 +54,14 @@ button {
     color: #fff;
 }
 
+#header-info, button, #footer {
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+
 #header a, a:visited {
-    color: #fff;
+    color: #E5E7Eb;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -83,7 +95,6 @@ button {
 #header-info {
     flex-basis: 45%;
     margin-right: 20px;
-
 }
 
 #header-info p {
@@ -123,18 +134,18 @@ button {
 
 #quote-container {
     background: #E5E7EB;
+    color: #1F2937;
+
 }
 
 .quote-text {
-    font-size: 26px;
+    font-size: 36px;
     font-style: italic;
+    font-weight: light;
     text-align: justify;
 }
 
 .quote-credit {
-
-
-    font-size: 20px;
     font-weight: 900;
 
 }
@@ -142,6 +153,7 @@ button {
 #footer {
     display: flex;
 }
+
 #footer span {
-    margin: auto;
+    margin: 15px auto;
 }
