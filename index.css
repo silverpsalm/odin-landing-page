@@ -22,7 +22,7 @@ button {
     font-weight: bolder;
 }
 
-#main {
+#header, #random-info-content {
     max-width: 800px;
     margin: auto;
 }
