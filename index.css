@@ -86,6 +86,13 @@ button {
     background: #fff;
 }
 
+.gallery-image {
+    border: #3882F6 solid 3px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
 #quote {
     background: #E5E7EB;
 }
