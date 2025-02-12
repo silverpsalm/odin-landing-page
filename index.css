@@ -81,3 +81,11 @@ button {
     max-width: 100%;
     height: auto;
 }
+
+#random-info-container {
+    background: #fff;
+}
+
+#quote {
+    background: #E5E7EB;
+}
