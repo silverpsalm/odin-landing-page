@@ -1,11 +1,22 @@
 body {
     background-color: #1F2937;
     font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+
 }
 
 h1 {
     font-size: 35px;
     font-weight: 900;
+}
+
+button {
+    background: #3882F6;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-weight: bolder;
 }
 
 #main {
