@@ -30,7 +30,7 @@ button {
     font-weight: bolder;
 }
 
-#header, #random-info-content, #footer {
+#header, #random-info-content, #quote-content, #footer {
     max-width: 800px;
     margin: auto;
 }
