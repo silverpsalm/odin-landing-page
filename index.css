@@ -176,7 +176,7 @@ button {
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     text-align: justify;
 }
 
@@ -200,5 +200,5 @@ button {
 }
 
 #footer span {
-    margin: 15px auto;
+    margin: 25px auto;
 }
