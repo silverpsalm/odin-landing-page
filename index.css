@@ -106,7 +106,7 @@ button {
 
 #header-image {
     flex-basis: 50%;
-    background-image: url(/placeholder_image.png);
+    background-image: url(placeholder_image.png);
     background-position: center top;
     min-height: 230px;
 
