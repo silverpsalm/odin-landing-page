@@ -3,8 +3,6 @@ body {
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
     font-size: 18px;
-    
-
 }
 
 h1 {
@@ -37,9 +35,6 @@ button {
     font-weight: bolder;
 }
 
-#header-container {
-}
-
 #header {
     max-width: 1000px;
     margin: 0 auto;
@@ -49,11 +44,6 @@ button {
     max-width: 900px;
     margin: auto;
 }
-
-
-/* #header, #random-info-container, #quote-container, #footer{
-    margin: 0, auto;
-} */
 
 #main {
     display: flex;
