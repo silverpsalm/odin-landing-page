@@ -112,8 +112,22 @@ button {
     margin: auto;
 }
 
-#quote {
+#quote-container {
     background: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 26px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote-credit {
+
+
+    font-size: 20px;
+    font-weight: 900;
+
 }
 
 #footer {
