@@ -86,11 +86,21 @@ button {
     background: #fff;
 }
 
+#photo-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-text {
+    text-align: center;
+}
+
 .gallery-image {
     border: #3882F6 solid 3px;
     border-radius: 5px;
     width: 150px;
     height: 150px;
+    margin: auto;
 }
 
 #quote {
