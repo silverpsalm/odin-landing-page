@@ -169,6 +169,17 @@ button {
     align-self: flex-end;
 }
 
+#ad-container {
+    background-color: #FFF;
+    padding: 50px 0;
+    display:flex;
+}
+
+#ad-container img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 #footer {
     display: flex;
 }
