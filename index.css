@@ -125,12 +125,18 @@ button {
 
 .gallery-text {
     text-align: center;
+    font-size: 16px;
+    color: #1F2937;
+}
+
+.gallery-entry {
+    width: 150px;
 }
 
 .gallery-image {
-    border: #3882F6 solid 3px;
-    border-radius: 5px;
-    width: 150px;
+    border: #3882F6 solid 4px;
+    border-radius: 15px;
+    width: 100%;
     height: 150px;
     margin: auto;
 }
