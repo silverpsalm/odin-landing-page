@@ -16,7 +16,7 @@ h1 {
 
 h2 {
     font-size: 24px;
-    color: #E5E7EB;
+    margin: 0;
 }
 
 h3 {
@@ -83,6 +83,8 @@ button {
 
 #menu h2 {
     flex-grow:50;
+    color: #E5E7EB;
+
 }
 
 #header-content {
@@ -135,7 +137,13 @@ button {
 #quote-container {
     background: #E5E7EB;
     color: #1F2937;
+}
 
+#quote-content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    justify-content: flex-start;
 }
 
 .quote-text {
@@ -146,8 +154,7 @@ button {
 }
 
 .quote-credit {
-    font-weight: 900;
-
+    align-self: flex-end;
 }
 
 #footer {
