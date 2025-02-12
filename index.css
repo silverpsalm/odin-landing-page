@@ -69,6 +69,10 @@ button {
 
 }
 
+#header-info p {
+    margin: 0 0 10px;
+}
+
 #header-image {
     flex-basis: 55%;
 }
